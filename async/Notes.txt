@@ -1,0 +1,3 @@
+Lets say there are two flows Parent and child flow in our mule application. The parent flow is calling the child flow to perform some task, but the parent flow doesn't have any dependencies from the result of the child flow. In such cases Async is used.
+
+In Async process, both parent and child flow will execute in parallel.
